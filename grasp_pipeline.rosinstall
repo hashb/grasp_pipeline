@@ -1,0 +1,28 @@
+- git:
+    local-name: convenience-pkgs
+    uri: https://github.com/JenniferBuehler/convenience-pkgs.git
+    version: master
+- git:
+    local-name: general-message-pkgs
+    uri: https://github.com/JenniferBuehler/general-message-pkgs.git
+    version: master
+- git:
+    local-name: gazebo-pkgs
+    uri: https://github.com/JenniferBuehler/gazebo-pkgs.git
+    version: master
+- git:
+    local-name: moveit-pkgs
+    uri: https://github.com/JenniferBuehler/moveit-pkgs.git
+    version: master
+- git:
+    local-name: convenience-pkgs
+    uri: https://github.com/JenniferBuehler/convenience-pkgs.git
+    version: master
+- git:
+    local-name: urdf-tools-pkgs
+    uri: https://github.com/JenniferBuehler/urdf-tools-pkgs.git
+    version: master
+- git:
+    local-name: graspit-pkgs
+    uri: https://github.com/JenniferBuehler/graspit-pkgs.git
+    version: master
