@@ -37,3 +37,43 @@ sudo apt-get install \
     ros-indigo-roslint
 ```
 
+---
+
+Install wstool
+
+```bash
+sudo apt-get install python-wstool
+```
+
+Create a workspace
+
+```bash
+mkdir -p ~/ws_graspit
+cd ~/ws_graspit
+```
+
+Initialize workspace from rosinstall file
+
+```bash
+wstool init src https://raw.githubusercontent.com/hashb/grasp_pipeline/master/grasp_pipeline.rosinstall
+```
+
+Merge the rosinstall file
+
+```bash
+wstool merge -t src https://raw.githubusercontent.com/hashb/grasp_pipeline/master/grasp_pipeline.rosinstall
+```
+
+Update the workspace
+
+```bash
+wstool update -t src
+```
+
+---
+
+Build the workspace
+
+```bash
+catkin build
+```
