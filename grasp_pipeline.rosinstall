@@ -15,14 +15,22 @@
     uri: https://github.com/JenniferBuehler/moveit-pkgs.git
     version: master
 - git:
-    local-name: convenience-pkgs
-    uri: https://github.com/JenniferBuehler/convenience-pkgs.git
-    version: master
-- git:
     local-name: urdf-tools-pkgs
     uri: https://github.com/JenniferBuehler/urdf-tools-pkgs.git
     version: master
 - git:
     local-name: graspit-pkgs
     uri: https://github.com/JenniferBuehler/graspit-pkgs.git
+    version: master
+- git:
+    local-name: joint-control-pkgs
+    uri: https://github.com/hashb/joint-control-pkgs.git
+    version: master
+- git:
+    local-name: gazebo_ros_pkgs
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+    version: indigo-devel
+- git:
+    local-name: urlg_robots_description
+    uri: https://bitbucket.org/robot-learning/urlg_robots_description.git
     version: master
